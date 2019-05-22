@@ -2,7 +2,7 @@
 You'll build a service that will accept HTTP GET requests at:
 
 ----
-http://<server>:<port>/greeting
+http://&lt;server&gt;:&lt;port&gt;/greeting
 ----
 
 and respond with a link:/understanding/JSON[JSON] representation of a greeting:
@@ -15,7 +15,7 @@ and respond with a link:/understanding/JSON[JSON] representation of a greeting:
 You can customize the greeting with an optional `name` parameter in the query string:
 
 ----
-http://<server>:<port>/greeting?name=User
+http://&lt;server&gt;:&lt;port&gt;/greeting?name=User
 ----
 
 The `name` parameter value overrides the default value of "World" and is reflected in the response:
